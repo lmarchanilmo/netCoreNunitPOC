@@ -1,0 +1,184 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/luis.marchani/Projects/TherapyBrandsAutomation/TherapyBrandsModule/TherapyBrandsModule.csproj": {}
+  },
+  "projects": {
+    "/Users/luis.marchani/Projects/TherapyBrandsAutomation/TherapyBrandsAutomation/TherapyBrandsAutomation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/luis.marchani/Projects/TherapyBrandsAutomation/TherapyBrandsAutomation/TherapyBrandsAutomation.csproj",
+        "projectName": "TherapyBrandsAutomation",
+        "projectPath": "/Users/luis.marchani/Projects/TherapyBrandsAutomation/TherapyBrandsAutomation/TherapyBrandsAutomation.csproj",
+        "packagesPath": "/Users/luis.marchani/.nuget/packages/",
+        "outputPath": "/Users/luis.marchani/Projects/TherapyBrandsAutomation/TherapyBrandsAutomation/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/luis.marchani/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[88.0.4324.9600, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/luis.marchani/Projects/TherapyBrandsAutomation/TherapyBrandsModule/TherapyBrandsModule.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/luis.marchani/Projects/TherapyBrandsAutomation/TherapyBrandsModule/TherapyBrandsModule.csproj",
+        "projectName": "TherapyBrandsModule",
+        "projectPath": "/Users/luis.marchani/Projects/TherapyBrandsAutomation/TherapyBrandsModule/TherapyBrandsModule.csproj",
+        "packagesPath": "/Users/luis.marchani/.nuget/packages/",
+        "outputPath": "/Users/luis.marchani/Projects/TherapyBrandsAutomation/TherapyBrandsModule/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/luis.marchani/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/luis.marchani/Projects/TherapyBrandsAutomation/TherapyBrandsAutomation/TherapyBrandsAutomation.csproj": {
+                "projectPath": "/Users/luis.marchani/Projects/TherapyBrandsAutomation/TherapyBrandsAutomation/TherapyBrandsAutomation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit.Allure": {
+              "target": "Package",
+              "version": "[1.0.11, )"
+            },
+            "NUnit.Allure.Steps": {
+              "target": "Package",
+              "version": "[1.0.9, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
